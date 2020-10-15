@@ -24,11 +24,8 @@ function OrphanagesMap() {
                 </footer>
             </aside>
             <Map center={[-24.001905, -48.3474392]} zoom={15} style={{ width: '100%', height: '100%' }} >
-                {/* <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" /> */}
-                <TileLayer url={`https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`} />
-            </Map>{/* -24.001905 -48.3474392 */}
-
-
+                <TileLayer url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`} />
+            </Map>
             <Link to=" " className="create-orphanage">
                 <FiPlus size={32} color="#fff" />
             </Link>
