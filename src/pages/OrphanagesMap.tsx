@@ -26,7 +26,7 @@ function OrphanagesMap() {
             <Map center={[-24.001905, -48.3474392]} zoom={15} style={{ width: '100%', height: '100%' }} >
                 <TileLayer url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`} />
             </Map>
-            <Link to=" " className="create-orphanage">
+            <Link to="" className="create-orphanage">
                 <FiPlus size={32} color="#fff" />
             </Link>
         </div>
