@@ -1,9 +1,6 @@
 import React from 'react';
-
-
-// JSX - JavaScript XML
-
 import './styles/global.css'
+import 'leaflet/dist/leaflet.css'
 
 import Routes from './routes';
 
