@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 /* import { FaWhatsapp } from "react-icons/fa"; */
 import { FiClock, FiInfo } from "react-icons/fi";
 import { Map, Marker, TileLayer } from "react-leaflet";
-import { Link } from 'react-router-dom'
 import '../styles/pages/orphanage.css';
 import Sidebar from "../components/Sidebar";
 import mapIcon from "../utils/mapIcon";
@@ -56,7 +55,7 @@ export default function Orphanage() {
               return (
                 <button
                   key={image.id}
-                  className={activeImageIndex == index ? 'active' : ''}
+                  className={activeImageIndex === index ? 'active' : ''}
                   type="button"
                   onClick={() => {
                     setActiveImageIndex(index)
