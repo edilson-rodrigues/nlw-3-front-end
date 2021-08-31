@@ -11,3 +11,6 @@ e gratuito!
 Juntos para
 o próximo nível.
 Um evento para dar o próximo passo na sua evolução como programadora ou programador.
+
+```obs.:```
+adicionar a chave REACT_APP_MAPBOX_TOKEN e token do [mapbox]('https://account.mapbox.com') na variavel de ambiente, 
